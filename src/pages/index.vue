@@ -2,7 +2,7 @@
   <div class="index-wrap">
     <div class="index-left">
       <div class="index-left-block">
-        <h2>全部产品</h2>
+        <h2>全部产品-----new</h2>
         <template v-for="product in productList">
           <h3 v-bind:key="product.title+1">{{product.title}}</h3>
           <ul v-bind:key="product.title+2">
